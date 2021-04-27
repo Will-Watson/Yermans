@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #00a5d0;
+  background-color: green;
   padding: 12px 12px;
   display: flex;
   justify-content: space-between;
@@ -35,17 +35,4 @@ a {
   font-size: 16px;
   font-weight: 600;
   margin: 0px 0px 0px 12px;
-}
-
-p,
-li {
-  padding: 0px 0px 0px 8px;
-}
-
-p {
-  font-weight: 600;
-}
-
-.Purchased {
-  text-decoration: line-through;
 }
