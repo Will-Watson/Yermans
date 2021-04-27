@@ -6,6 +6,19 @@
   align-items: center;
 }
 
+.home-outer {
+  width: 800px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-inner {
+  display: flex;
+  justify-content: center;
+}
+
 h3 {
   margin: 0px 0px;
   font-size: 24px;
