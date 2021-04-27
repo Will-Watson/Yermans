@@ -7,12 +7,19 @@ import Home from './components/Home';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <NavBar />
-          <Route exact path='/' component={Home} />
+      <div>
+        <div
+          className='background-image'
+          style={{
+            backgroundImage: `url(https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2013/09/how-to-varnish.jpg)`,
+          }}
+        >
+          <BrowserRouter>
+            <NavBar />
+            <Route exact path='/' component={Home} />
+          </BrowserRouter>
         </div>
-      </BrowserRouter>
+      </div>
     );
   }
 }

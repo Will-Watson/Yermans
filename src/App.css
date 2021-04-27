@@ -6,9 +6,12 @@
   align-items: center;
 }
 
+.background-image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .home-outer {
-  width: 800px;
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +20,8 @@
 .home-inner {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 h3 {
