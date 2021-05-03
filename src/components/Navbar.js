@@ -7,6 +7,10 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme) => ({
+  toolbar: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+  },
   root: {
     flexGrow: 1,
   },
@@ -15,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    marginLeft: theme.spacing(2),
   },
 }));
 
@@ -31,6 +36,9 @@ const NavBar = () => {
   return (
     <AppBar position='static'>
       <Toolbar>
+        <Typography variant='h6' className={classes.title}>
+          Yerman's Irish Pub
+        </Typography>
         <IconButton
           edge='start'
           className={classes.menuButton}
@@ -39,9 +47,6 @@ const NavBar = () => {
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant='h6' className={classes.title}>
-          Yerman's Irish Pub
-        </Typography>
       </Toolbar>
     </AppBar>
   );
