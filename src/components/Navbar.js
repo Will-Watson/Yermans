@@ -30,6 +30,15 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(2),
     fontFamily: 'Cormorant Unicase',
   },
+  list: {
+    width: 250,
+  },
+  fullList: {
+    width: 'auto',
+  },
+  paper: {
+    background: 'blue',
+  },
 }));
 
 const NavBar = () => {
