@@ -10,10 +10,12 @@ html {
 img {
   border-radius: 15px;
   width: 100%;
+  padding: 10px;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 15px;
@@ -21,12 +23,31 @@ img {
 
 .img-outer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: orange;
-  padding: 50px;
+  background: url(https://lh3.googleusercontent.com/proxy/qzkQDQ0JEcFHJBCb8u-luir4snwThzJl6yqAeOxMMh-eXD_uxuZITkyv63G8P_wEA49N4lRCs__8xTBepNgLUGKEA9ttSOBWRwh7-Q)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 25px;
   width: 50%;
   border-radius: 15px;
+  margin: 20px;
+}
+
+.textbox {
+  background-color: orange;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: white;
 }
 
 h3 {
