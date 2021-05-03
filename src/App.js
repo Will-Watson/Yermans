@@ -8,12 +8,7 @@ import Contact from './components/Contact';
 class App extends Component {
   render() {
     return (
-      <div
-      // className='background-image'
-      // style={{
-      //   backgroundImage: `url(https://i.pinimg.com/originals/ad/a9/eb/ada9eb4f19d7f2bb3dbd8f76a7d6e606.jpg)`,
-      // }}
-      >
+      <div>
         <BrowserRouter>
           <NavBar />
           <Route exact path='/' component={Home} />
