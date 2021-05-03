@@ -9,6 +9,7 @@ html {
 
 img {
   border-radius: 15px;
+  width: 100%;
 }
 
 .container {
@@ -18,13 +19,13 @@ img {
   padding: 15px;
 }
 
-.home-outer {
+.img-outer {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: orange;
   padding: 50px;
-  width: 500px;
+  width: 50%;
   border-radius: 15px;
 }
 
