@@ -4,7 +4,7 @@ import logo from '../yermans.png';
 const Home = () => {
   return (
     <div className='container'>
-      <div className='img-outer'>
+      <div className='img-home'>
         <div>
           <img className='logo' src={logo} alt="Yerman's Irish Pub Logo" />
         </div>

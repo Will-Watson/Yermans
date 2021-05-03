@@ -30,7 +30,7 @@ const beerArray = [
       'https://media.phillyvoice.com/media/images/10422361_10153605359035070_4244010.af2d4e92.fill-735x490.png',
   },
   {
-    name: 'Samual Adams Summer Ale',
+    name: 'Sam Adams Summer Ale',
     img:
       'https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/retail-shopper-insights/samuel-adams-summer-ale-gets-first-recipe-change-in-23-years/9403128-1-eng-GB/Samuel-Adams-Summer-Ale-gets-first-recipe-change-in-23-years_wrbm_large.jpg',
   },

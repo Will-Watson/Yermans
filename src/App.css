@@ -27,13 +27,32 @@ img {
   justify-content: center;
   align-items: center;
   background: url(https://lh3.googleusercontent.com/proxy/qzkQDQ0JEcFHJBCb8u-luir4snwThzJl6yqAeOxMMh-eXD_uxuZITkyv63G8P_wEA49N4lRCs__8xTBepNgLUGKEA9ttSOBWRwh7-Q)
-    no-repeat center center fixed;
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 25px;
+  /* width: 50%; */
+  width: 200px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.img-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://lh3.googleusercontent.com/proxy/qzkQDQ0JEcFHJBCb8u-luir4snwThzJl6yqAeOxMMh-eXD_uxuZITkyv63G8P_wEA49N4lRCs__8xTBepNgLUGKEA9ttSOBWRwh7-Q)
+    no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding: 25px;
   width: 50%;
+  /* width: 200px; */
   border-radius: 15px;
   margin: 20px;
 }
@@ -48,6 +67,8 @@ img {
 
 .text {
   color: white;
+  width: 100%;
+  text-align: center;
 }
 
 h3 {
