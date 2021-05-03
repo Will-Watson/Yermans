@@ -79,6 +79,11 @@ const NavBar = () => {
             Contact
           </ListItem>
         </Link>
+        <Link to='/beers' style={{ textDecoration: 'none' }}>
+          <ListItem button style={{ color: 'white' }}>
+            Beers
+          </ListItem>
+        </Link>
       </List>
     </div>
   );
