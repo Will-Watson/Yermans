@@ -8,19 +8,17 @@ import Contact from './components/Contact';
 class App extends Component {
   render() {
     return (
-      <div>
-        <div
-          className='background-image'
-          style={{
-            backgroundImage: `url(https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2013/09/how-to-varnish.jpg)`,
-          }}
-        >
-          <BrowserRouter>
-            <NavBar />
-            <Route exact path='/' component={Home} />
-            <Route exact path='/contact' component={Contact} />
-          </BrowserRouter>
-        </div>
+      <div
+      // className='background-image'
+      // style={{
+      //   backgroundImage: `url(https://i.pinimg.com/originals/ad/a9/eb/ada9eb4f19d7f2bb3dbd8f76a7d6e606.jpg)`,
+      // }}
+      >
+        <BrowserRouter>
+          <NavBar />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/contact' component={Contact} />
+        </BrowserRouter>
       </div>
     );
   }

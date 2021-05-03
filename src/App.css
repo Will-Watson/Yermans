@@ -6,22 +6,27 @@
   align-items: center;
 }
 
-.background-image {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+html {
+  background: url(https://i.pinimg.com/originals/ad/a9/eb/ada9eb4f19d7f2bb3dbd8f76a7d6e606.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .home-outer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: 'black';
 }
 
 .home-inner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  background-color: 'black';
 }
 
 h3 {
