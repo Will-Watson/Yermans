@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     '& .MuiPaper-root': {
-      // backgroundColor: '#6930C3',
+      backgroundColor: 'black',
     },
     '& .MuiListItem-root': {
       paddingTop: '20px',
@@ -35,9 +35,6 @@ const useStyles = makeStyles((theme) => ({
   },
   fullList: {
     width: 'auto',
-  },
-  paper: {
-    background: 'blue',
   },
 }));
 
@@ -71,12 +68,12 @@ const NavBar = () => {
     >
       <List>
         <Link to='/' style={{ textDecoration: 'none' }}>
-          <ListItem button style={{ color: 'black' }}>
+          <ListItem button style={{ color: 'white' }}>
             Home
           </ListItem>
         </Link>
         <Link to='/contact' style={{ textDecoration: 'none' }}>
-          <ListItem button style={{ color: 'black' }}>
+          <ListItem button style={{ color: 'white' }}>
             Contact
           </ListItem>
         </Link>
@@ -85,7 +82,7 @@ const NavBar = () => {
   );
 
   return (
-    <AppBar position='static'>
+    <AppBar position='static' style={{ backgroundColor: 'black' }}>
       <Toolbar>
         <Typography variant='h4' className={classes.title}>
           Yerman's Irish Pub
