@@ -13,6 +13,18 @@ img {
   padding: 10px;
 }
 
+#beer {
+  max-width: 400px;
+  border-radius: 25px;
+}
+
+#beer-text {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -23,7 +35,7 @@ img {
 
 .img-outer {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background: url(https://images.unsplash.com/photo-1582683522098-72ad7b0883a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80)
@@ -33,8 +45,23 @@ img {
   -o-background-size: cover;
   background-size: cover;
   padding: 25px;
-  /* width: 50%; */
-  width: 200px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.parchment-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 300px;
+  padding: 25px;
   border-radius: 15px;
   margin: 20px;
 }
