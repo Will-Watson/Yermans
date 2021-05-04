@@ -18,8 +18,10 @@ const Beers = () => {
           />
         </picture>
         <div className='parchment-outer'>
-          {draftArray.map((beer) => (
-            <span id='draft-text'>{beer}</span>
+          {draftArray.map((beer, i) => (
+            <span id='draft-text' key={i}>
+              {beer}
+            </span>
           ))}
         </div>
       </div>
@@ -37,8 +39,10 @@ const Beers = () => {
           />
         </picture>
         <div className='parchment-outer'>
-          {bottleArray.map((beer) => (
-            <span id='bottle-text'>{beer}</span>
+          {bottleArray.map((beer, i) => (
+            <span id='bottle-text' key={i}>
+              {beer}
+            </span>
           ))}
         </div>
       </div>
