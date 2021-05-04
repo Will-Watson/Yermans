@@ -1,5 +1,5 @@
 import React from 'react';
-import beerArray from '../beerInfo';
+import { draftArray, bottleArray } from '../beerInfo';
 
 const Beers = () => {
   return (
@@ -18,8 +18,27 @@ const Beers = () => {
           />
         </picture>
         <div className='parchment-outer'>
-          {beerArray.map((beer) => (
-            <span id='beer-text'>{beer.name}</span>
+          {draftArray.map((beer) => (
+            <span id='draft-text'>{beer}</span>
+          ))}
+        </div>
+      </div>
+      <div className='img-outer'>
+        <span className='parchment-outer'>
+          <h1>Our Bottled Beers</h1>
+        </span>
+      </div>
+      <div className='img-outer'>
+        <picture>
+          <img
+            id='beer'
+            src='https://images.unsplash.com/photo-1544523653-f3b3e6adae8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80'
+            alt='beer'
+          />
+        </picture>
+        <div className='parchment-outer'>
+          {bottleArray.map((beer) => (
+            <span id='bottle-text'>{beer}</span>
           ))}
         </div>
       </div>
@@ -28,14 +47,3 @@ const Beers = () => {
 };
 
 export default Beers;
-
-//<div className='container'>
-//   {beerArray.map((beer) => (
-//     <div className='img-outer'>
-//       <span className='textbox'>
-//         <h1 className='text'>{beer.name}</h1>
-//       </span>
-//       <img className='beerimg' src={beer.img} alt='assorted beers' />
-//     </div>
-//   ))}
-// </div>

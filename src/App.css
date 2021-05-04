@@ -18,10 +18,17 @@ img {
   border-radius: 25px;
 }
 
-#beer-text {
+#draft-text {
   font-size: 30px;
   text-align: center;
   padding: 10px;
+  color: black;
+}
+
+#bottle-text {
+  font-size: 25px;
+  text-align: center;
+  padding: 2px;
   color: black;
 }
 
