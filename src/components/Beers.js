@@ -6,7 +6,7 @@ const Beers = () => {
     <div className='container'>
       <div className='img-outer'>
         <span className='parchment-outer'>
-          <h1>Our Beers on Draft</h1>
+          <h1>Our Draft Beers</h1>
         </span>
       </div>
       <div className='img-outer'>
