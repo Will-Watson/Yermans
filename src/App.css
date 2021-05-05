@@ -45,9 +45,6 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  /* background: url(https://images.unsplash.com/photo-1617957718645-7680362d6312?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80)
-    no-repeat center center; */
   background: url(https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
     no-repeat center center;
   -webkit-background-size: cover;
@@ -57,6 +54,7 @@ img {
   padding: 25px;
   border-radius: 15px;
   margin: 20px;
+  box-shadow: 5px 5px black;
 }
 
 .parchment-outer {
