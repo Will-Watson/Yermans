@@ -74,17 +74,28 @@ const NavBar = () => {
             Home
           </ListItem>
         </Link>
-        <Link to='/contact' style={{ textDecoration: 'none' }}>
+        <Link
+          to='/yermans-irish-pub-nyc-contact'
+          style={{ textDecoration: 'none' }}
+        >
           <ListItem button style={{ color: 'white' }}>
             Contact
           </ListItem>
         </Link>
-        <Link to='/beers' style={{ textDecoration: 'none' }}>
+        <Link
+          to='/yermans-irish-pub-nyc-beers'
+          style={{ textDecoration: 'none' }}
+        >
           <ListItem button style={{ color: 'white' }}>
             Beers
           </ListItem>
         </Link>
       </List>
+      <Link to='/yermans-irish-pub-nyc-menu' style={{ textDecoration: 'none' }}>
+        <ListItem button style={{ color: 'white' }}>
+          Menu
+        </ListItem>
+      </Link>
     </div>
   );
 

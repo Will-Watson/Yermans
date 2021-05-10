@@ -5,6 +5,7 @@ import NavBar from './components/Navbar';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Beers from './components/Beers';
+import Menu from './components/Menu';
 
 class App extends Component {
   render() {
@@ -13,8 +14,13 @@ class App extends Component {
         <BrowserRouter>
           <NavBar />
           <Route exact path='/' component={Home} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/beers' component={Beers} />
+          <Route
+            exact
+            path='/yermans-irish-pub-nyc-contact'
+            component={Contact}
+          />
+          <Route exact path='/yermans-irish-pub-nyc-beer' component={Beers} />
+          <Route exact path='/yermans-irish-pub-nyc-menu' component={Menu} />
         </BrowserRouter>
       </div>
     );
