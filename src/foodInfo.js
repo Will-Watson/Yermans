@@ -24,3 +24,38 @@ const soupsAndSalads = [
     price: '$16.95',
   },
 ];
+
+const wings = [
+  {
+    name: 'Hot',
+    price: '$9.75',
+  },
+  {
+    name: 'Mild',
+    price: '$9.75',
+  },
+  {
+    name: 'BBQ',
+    price: '$9.75',
+  },
+  {
+    name: 'Chipotle',
+    price: '$9.75',
+  },
+  {
+    name: 'Teriyaki',
+    price: '$9.75',
+  },
+  {
+    name: 'Sweet Chilli',
+    price: '$9.75',
+  },
+  {
+    name: 'Insanity',
+    price: '$9.75',
+  },
+  {
+    name: 'Cajun Dry Rub',
+    price: '$9.75',
+  },
+];
