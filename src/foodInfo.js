@@ -64,53 +64,68 @@ const appetizers = [
   {
     name: 'Home Made Mozzarella Sticks',
     price: '$9.75',
+    description: 'Served with Marinara Sauce',
   },
   {
     name: 'Three Cheese Quesadilla',
     price: '$9.75',
+    description: 'Served with Sour Cream',
   },
   {
     name: 'Chicken Quesadilla',
     price: '$10.75',
+    description: 'Served with Sour Cream',
   },
   {
     name: 'Beef Quesadilla',
     price: '$10.75',
+    description: 'Served with Sour Cream',
   },
   {
     name: 'Potato Skins',
     price: '$9.75',
+    description: 'Served with Sour Cream',
   },
   {
     name: 'Chicken Fingers',
     price: '$9.75',
+    description: 'Served with Honey Mustard',
   },
   {
     name: 'Zucchini Sticks',
     price: '$9.75',
+    description: 'Served with Marinara Sauce',
   },
   {
     name: 'Jalapeno Poppers',
     price: '$9.75',
+    description: 'Served with Sour Cream',
   },
   {
     name: 'Cheese Fries',
     price: '$9.75',
+    description: 'Served with your Choice of Dipping Sauce',
   },
   {
     name: 'Chili Nachos Supreme',
     price: '$10.95',
+    description: 'Served with Sour Cream, Salsa and Pickled Jalapenos',
   },
   {
     name: 'Irish Nachos',
     price: '$10.95',
+    description:
+      'Fries topped with Melted Cheese, Bacon Bits and Diced Bell Peppers',
   },
   {
     name: 'Deep Fried Calamari',
     price: '$10.95',
+    description: 'Served with Marinara Sauce',
   },
   {
     name: 'Sampler Platter',
     price: '$24.95',
+    description:
+      'Wings, Chicken Fingers, Mozzarella Sticks, Potato Skins, Jalapeno Poppers and Fried Calamari Served wit their Respected Sauces',
   },
 ];
