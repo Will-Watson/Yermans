@@ -19,7 +19,7 @@ class App extends Component {
             path='/yermans-irish-pub-nyc-contact'
             component={Contact}
           />
-          <Route exact path='/yermans-irish-pub-nyc-beer' component={Beers} />
+          <Route exact path='/yermans-irish-pub-nyc-beers' component={Beers} />
           <Route exact path='/yermans-irish-pub-nyc-menu' component={Menu} />
         </BrowserRouter>
       </div>
