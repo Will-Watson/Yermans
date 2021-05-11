@@ -233,3 +233,54 @@ export const entrees = [
     price: '$19.95',
   },
 ];
+
+export const sideOrders = [
+  {
+    name: 'Baked Potato',
+    price: '$3.50',
+  },
+  {
+    name: 'Mashed Potato',
+    price: '$3.50',
+  },
+  {
+    name: 'Basket of Fries',
+    price: '$5.95',
+  },
+  {
+    name: 'Basket of Onion Rings',
+    price: '$6.95',
+  },
+  {
+    name: 'Basket of Sweet Potato Fries',
+    price: '$6.95',
+  },
+  {
+    name: 'Basket of Waffle Fries',
+    price: '$6.95',
+  },
+  {
+    name: 'Basket of Tater Tots',
+    price: '$6.95',
+  },
+  {
+    name: 'Sautéed Onions',
+    price: '$2.95',
+  },
+  {
+    name: 'Sautéed Mushrooms',
+    price: '$4.25',
+  },
+  {
+    name: 'House Mixed Vegetables',
+    price: '$4.25',
+  },
+  {
+    name: 'Bowl of Gravy',
+    price: '$1.95',
+  },
+  {
+    name: 'Creamed Spinach',
+    price: '$4.25',
+  },
+];
