@@ -1,4 +1,4 @@
-const soupsAndSalads = [
+export const soupsAndSalads = [
   {
     name: 'French Onion',
     price: '$5.25',
@@ -25,7 +25,7 @@ const soupsAndSalads = [
   },
 ];
 
-const wings = [
+export const wings = [
   {
     name: 'Hot',
     price: '$9.75',
@@ -60,7 +60,7 @@ const wings = [
   },
 ];
 
-const appetizers = [
+export const appetizers = [
   {
     name: 'Home Made Mozzarella Sticks',
     price: '$9.75',
@@ -127,5 +127,74 @@ const appetizers = [
     price: '$24.95',
     description:
       'Wings, Chicken Fingers, Mozzarella Sticks, Potato Skins, Jalapeno Poppers and Fried Calamari Served wit their Respected Sauces',
+  },
+];
+
+export const burgersAndSandwiches = [
+  {
+    name: "Yerman's Burger",
+    price: '$16.95',
+    description:
+      '10oz Half Lamb, Half Beef Burger topped with Mozzarella Cheese and Bacon served on a Pressed Pannini with a side of BBQ Sauce',
+  },
+  {
+    name: 'Hamburger',
+    price: '$12.95',
+    description: 'Classic Angus Beef Burger served on a Brioche Bun',
+  },
+  {
+    name: 'Cheese Burger',
+    price: '$13.95',
+    description: 'Angus Beef Burger served with Cheese on a Brioche Bun',
+  },
+  {
+    name: 'Bacon Cheese Burger',
+    price: '$14.95',
+    decription:
+      'Angus Beef Burger served with Bacon and Cheese on a Brioche Bun',
+  },
+  {
+    name: 'Bison Burger',
+    price: '$14.95',
+    description: '100% Bison Beef Burger served on a Brioche Bun',
+  },
+  {
+    name: 'Turkey Burger',
+    price: '$12.95',
+    description: '100% Ground Turkey Burger served on a Brioche Bun',
+  },
+  {
+    name: '"Beyond" Veggie Burger',
+    price: '$14.50',
+    description: '8oz Beyond Brand Veggie Burger served on a Brioche Bun',
+  },
+  {
+    name: 'Chicken Pannini Melt',
+    price: '$15.95',
+    description:
+      'Grilled Chicken topped with Melted Swiss, Bacon and Blue Cheese served on a pressed Pannini',
+  },
+  {
+    name: 'Grilled Chicken Sandwich',
+    price: '$14.95',
+    description: 'Classic Grilled Chicken Sandwich served on a Hero',
+  },
+  {
+    name: 'Cajun Chicken Sandwich',
+    price: '$14.95',
+    description:
+      'Grilled Chicken Spiced up with our House Blend Cajun Seasoning served on a Hero',
+  },
+  {
+    name: 'Philly Cheese Steak',
+    price: '$15.95',
+    description:
+      'Thinly Sliced Steak covered in melted American Cheese, diced Onions and Bell Peppers. Served on a Hero',
+  },
+  {
+    name: 'Roast Beef French Dip Sandwich',
+    price: '$16.95',
+    description:
+      'Thinly Sliced Roast Beef with Swiss Cheese served on a Hero. Side of House made Au Jus for Dipping',
   },
 ];
