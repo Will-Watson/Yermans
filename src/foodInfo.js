@@ -284,3 +284,31 @@ export const sideOrders = [
     price: '$4.25',
   },
 ];
+
+export const childrensMenu = [
+  {
+    name: 'Pasta',
+    price: '$8.95',
+    description: 'Served with Marinara Sauce or Butter',
+  },
+  {
+    name: 'Hamburger',
+    price: '$8.95',
+    description: '4oz Angus Beef Burger served with Fries or Tater Tots',
+  },
+  {
+    name: 'Chicken Fingers',
+    price: '$8.95',
+    description: 'Served with Fries or Tater Tots',
+  },
+  {
+    name: 'Mac and Cheese Wedges',
+    price: '$8.95',
+    description: 'Served with Fries or Tater Tots',
+  },
+  {
+    name: 'Grilled Ham and Cheese',
+    price: '$8.95',
+    description: 'Served with Fries or Tater Tots',
+  },
+];
