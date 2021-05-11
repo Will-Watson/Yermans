@@ -59,3 +59,58 @@ const wings = [
     price: '$9.75',
   },
 ];
+
+const appetizers = [
+  {
+    name: 'Home Made Mozzarella Sticks',
+    price: '$9.75',
+  },
+  {
+    name: 'Three Cheese Quesadilla',
+    price: '$9.75',
+  },
+  {
+    name: 'Chicken Quesadilla',
+    price: '$10.75',
+  },
+  {
+    name: 'Beef Quesadilla',
+    price: '$10.75',
+  },
+  {
+    name: 'Potato Skins',
+    price: '$9.75',
+  },
+  {
+    name: 'Chicken Fingers',
+    price: '$9.75',
+  },
+  {
+    name: 'Zucchini Sticks',
+    price: '$9.75',
+  },
+  {
+    name: 'Jalapeno Poppers',
+    price: '$9.75',
+  },
+  {
+    name: 'Cheese Fries',
+    price: '$9.75',
+  },
+  {
+    name: 'Chili Nachos Supreme',
+    price: '$10.95',
+  },
+  {
+    name: 'Irish Nachos',
+    price: '$10.95',
+  },
+  {
+    name: 'Deep Fried Calamari',
+    price: '$10.95',
+  },
+  {
+    name: 'Sampler Platter',
+    price: '$24.95',
+  },
+];
