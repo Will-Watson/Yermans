@@ -198,3 +198,38 @@ export const burgersAndSandwiches = [
       'Thinly Sliced Roast Beef with Swiss Cheese served on a Hero. Side of House made Au Jus for Dipping',
   },
 ];
+
+export const entrees = [
+  {
+    name: '8oz New York Shell Steak',
+    price: '$22.95',
+  },
+  {
+    name: '12oz Dry Aged New York Shell Steak',
+    price: '$35.95',
+  },
+  {
+    name: '16oz Dry Aged New York Shell Steak',
+    price: '$39.95',
+  },
+  {
+    name: '22oz Dry Aged New York Shell Steak',
+    price: '$45.95',
+  },
+  {
+    name: 'Beef Pot Roast',
+    price: '$17.95',
+  },
+  {
+    name: "Shepherd's Pie",
+    price: '$17.95',
+  },
+  {
+    name: 'Fish N Chips',
+    price: '$16.95',
+  },
+  {
+    name: 'Penne Ala Vodka with Grilled Chicken',
+    price: '$19.95',
+  },
+];
