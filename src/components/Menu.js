@@ -49,6 +49,17 @@ const Menu = () => {
             </div>
           ))}
         </div>
+
+        <div className='parchment-outer'>
+          <div className='food-course'>Burgers and Sandwiches</div>
+          {burgersAndSandwiches.map((item, i) => (
+            <div className='name-and-price'>
+              <div className='item-name'>{item.name}</div>
+              <div className='item-price'>{item.price}</div>
+              <div className='item-description'>{item.description}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
